@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>無標題文件</title>
+<style type="text/css">
+.box01 {
+	width: 100px;
+	height: 100px;
+	background-color: #ECEE77;
+	text-align: center;
+	margin: 10px;
+	line-height: 100px;
+	-webkit-transition: all 0.5s ease-in-out 0.5s;
+	-o-transition: all 0.5s ease-in-out 0.5s;
+	transition: all 0.5s ease-in-out 0.5s;
+}
+.box02 {
+	width: 100px;
+	height: 100px;
+	background-color: #AAF0A4;
+	text-align: center;
+	margin: 10px;
+	line-height: 100px;
+	-webkit-transition: all 0.5s ease-in-out 0.5s;
+	-o-transition: all 0.5s ease-in-out 0.5s;
+	transition: all 0.5s ease-in-out 0.5s;
+}
+.box03 {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	margin: 10px;
+	background-color: #ADEEFB;
+	-webkit-transition: all 0.5s ease-in-out 0.5s;
+	-o-transition: all 0.5s ease-in-out 0.5s;
+	transition: all 0.5s ease-in-out 0.5s;
+}
+.countainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.box01:hover {
+	transform: translate(25px, 25px);
+	-webkit-transform: translate(25px, 25px);
+	-o-transform: translate(25px, 25px);
+	font-size: xx-large;
+	color:#36E370
+}
+.box02:hover {
+	-webkit-opacity: 0.5;
+	opacity: 0.5;
+	 transform: rotate(45deg);
+}
+.box03:hover {
+	background-color: #F9F6F6;
+	 transform: scale(1.5, 1.5);
+}
+</style>
+</head>
+
+<body>
+<div class="countainer">
+<div class="box01">位移</div>
+<div class="box02">旋轉</div>
+<div class="box03">縮放</div>
+</div>
+</body>
+</html>
